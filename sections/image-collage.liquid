@@ -1,0 +1,56 @@
+<div class="image-collage-section page-width">
+  <div class="cst-collage-header">
+  <img src="https://cdn.shopify.com/s/files/1/0724/3684/2720/files/sparkles-removebg-preview.png?v=1748613078" width=20 height=20 alt="Little Pioneers">
+  <h2 class="inline-richtext collage-header">{{ section.settings.heading }}</h2>
+  </div>
+  <div class="collage-images">
+    <img src="{{ section.settings.image-1 | img_url:'master'}}" width=500 height=500 alt="Little Pioneers">
+    {% if section.settings.image-2 != blank %}
+    <img src="{{ section.settings.image-2 | img_url:'master'}}" width=500 height=500 alt="Little Pioneers">
+    {% endif %}
+   {% if section.settings.image-3 != blank %}
+    <img src="{{ section.settings.image-3 | img_url:'master'}}" width=500 height=500 alt="Little Pioneers">
+    {% endif %}
+    {% if section.settings.image-4 != blank %}
+    <img src="{{ section.settings.image-4 | img_url:'master'}}" width=500 height=500 alt="Little Pioneers">
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Image collage",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-1",
+        "label": "first Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-2",
+        "label": "second Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-3",
+        "label": "third Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image-4",
+        "label": "Fourth Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image collage"
+      }
+    ]
+  }
+{% endschema %}

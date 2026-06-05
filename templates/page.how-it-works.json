@@ -1,0 +1,199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_nzBUCf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_86D39C": {
+          "type": "heading",
+          "settings": {
+            "heading": "🔧<strong>How It Works</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_TAEnni": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_76tj3z": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_86D39C",
+        "text_TAEnni",
+        "buttons_76tj3z"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_TbbQDd": {
+      "type": "multirow",
+      "blocks": {
+        "row_z7L4WU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/0B3A3258.jpg",
+            "caption": "Step 1",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_K7FRBC": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/0B3A3103.jpg",
+            "caption": "step 2",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_aUqiGj": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/23b4ac322f8ca0e88c6aec3a85bfc736.gif",
+            "caption": "step 3",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_z7L4WU",
+        "row_K7FRBC",
+        "row_aUqiGj"
+      ],
+      "settings": {
+        "custom-css": "cst-multcolumn-section how-it-works-page",
+        "section-heading": "🛠️<strong>Assemble & Care Instructions</strong>🔧",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_XUjNkW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_c3Cqmm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>🧽Care Instructions:</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_hBwYyr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wipe with a damp cloth after use.</p><p>Avoid harsh chemicals to protect the finish.</p><p>Store indoors when not in use to maintain durability.</p>"
+          }
+        },
+        "button_E6qyqk": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_c3Cqmm",
+        "text_hBwYyr",
+        "button_E6qyqk"
+      ],
+      "settings": {
+        "custom_class": "cst-care-instructions-shop-page",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "video_BY4ey7": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/web_2023_WECO-foldable-kitchen-tower-09-1.jpg",
+        "description": "How It Works Assemble & Care | The Little Pioneers",
+        "full_width": false,
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_nzBUCf",
+    "multirow_TbbQDd",
+    "rich_text_XUjNkW",
+    "video_BY4ey7"
+  ]
+}

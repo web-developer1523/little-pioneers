@@ -1,0 +1,287 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab_T3NdQj": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What’s Included + Bundle Value",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.custom_description_extended | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_nDLWKP": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why You'll  Love It",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.custom_why_parents_love | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_8JzGpk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "check_mark",
+            "content": "<p>Crafted from <strong>premium 304 stainless steel</strong> and <strong>food-grade silicone</strong>, our Everyday Eats products are designed for real-life family mealtimes.</p><p>Each piece is:</p><ul><li>Low-tox<br/></li><li>BPA-free<br/></li><li>Lab tested for quality and safety<br/></li><li>Stain resistant<br/></li><li>Odour resistant<br/></li><li>Durable for everyday use<br/></li><li>Easy to clean<br/></li><li>Made to last beyond the baby stage<br/></li></ul><p>A practical, long-lasting alternative to plastic mealtime products — thoughtfully designed for little hands, daily messes, and growing families.</p><p><strong>For added peace of mind, our products have been lab tested to ensure they meet our quality and safety standards.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cFEDgH": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.custom_care_instructions | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_DMWCJN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Perfect For",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.custom_perfect_for | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "collapsible_tab_hewJ8i": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "3-in-1 Multi-Use Design",
+            "icon": "check_mark",
+            "content": "<p>3-in-1 Multi-Use Design: Converts from a high chair → learning tower → table & seat</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_eJaTMg": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Simple, Easy Conversion",
+            "icon": "check_mark",
+            "content": "<p>Simple, Easy Conversion: Quick, intuitive switching between modes</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9mNEcQ": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Meets Australian High Chair Standards",
+            "icon": "check_mark",
+            "content": "<p>Designed to comply with strict safety regulations</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_8cetjQ": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Safety & Stability Tested",
+            "icon": "check_mark",
+            "content": "<p> Rigorously weight and stability tested for peace of mind</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_wChcdD": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "5-Point Harness",
+            "icon": "check_mark",
+            "content": "<p> Secure seating for babies from 6 months</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kzTRYB": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Adjustable footrest and Seat plate",
+            "icon": "check_mark",
+            "content": "<p> Promotes correct posture and comfortable support</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GTEK6N": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Removable Tray",
+            "icon": "check_mark",
+            "content": "<p> Easy to attach, remove, and clean</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_KcP6Qh": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Slimline Design",
+            "icon": "check_mark",
+            "content": "<p> Ideal for small homes and compact spaces</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_f4meYw": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Table & Seat Mode: For toddlers & preschoolers",
+            "icon": "check_mark",
+            "content": "<p> High chair for 6+ months; learning tower from 10 months (when your child can stand)</p>",
+            "page": ""
+          }
+        },
+        "easyreviews_product_review_Hj4pMJ": {
+          "type": "shopify://apps/easyreviews/blocks/product_review/1341251b-09d7-46f3-ba6a-e732a50e97a5",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_T3NdQj",
+        "collapsible_tab_nDLWKP",
+        "collapsible_tab_8JzGpk",
+        "collapsible_tab_cFEDgH",
+        "collapsible_tab_DMWCJN",
+        "share",
+        "collapsible_tab_hewJ8i",
+        "collapsible_tab_eJaTMg",
+        "collapsible_tab_9mNEcQ",
+        "collapsible_tab_8cetjQ",
+        "collapsible_tab_wChcdD",
+        "collapsible_tab_kzTRYB",
+        "collapsible_tab_GTEK6N",
+        "collapsible_tab_KcP6Qh",
+        "collapsible_tab_f4meYw",
+        "easyreviews_product_review_Hj4pMJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "17418723326d226603": {
+      "type": "apps",
+      "blocks": {
+        "easyreviews_product_review_CXXKqk": {
+          "type": "shopify://apps/easyreviews/blocks/product_review/1341251b-09d7-46f3-ba6a-e732a50e97a5",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "easyreviews_product_review_CXXKqk"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "17418723326d226603"
+  ]
+}

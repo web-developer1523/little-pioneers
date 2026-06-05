@@ -1,0 +1,40 @@
+{% comment %}
+  Product media gallery with horizontal Slick slider
+{% endcomment %}
+
+{{ 'slick-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="product-media-gallery">
+  <!-- Main Slider -->
+  <div class="slider cst-slides">
+    {% for media in product.media %}
+      <div>
+        {% if media.media_type == 'image' %}
+          <img src="{{ media.preview_image | image_url: width: 800 }}" alt="{{ media.alt }}">
+        {% elsif media.media_type == 'video' %}
+          <video controls>
+            <source src="{{ media.video | file_url }}" type="video/mp4">
+          </video>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Thumbnails Slider (show only 3-4 at a time) -->
+  <div class="slider-thumbnails">
+    {% for media in product.media %}
+      <div>
+        {% if media.media_type == 'image' %}
+          <img src="{{ media.preview_image | image_url: width: 200 }}" alt="{{ media.alt }}">
+        {% elsif media.media_type == 'video' %}
+          <img src="{{ media.preview_image | image_url: width: 200 }}" alt="Video Thumbnail">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- jQuery + Slick JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+{{ 'slick-slider.js' | asset_url | script_tag }} 

@@ -1,0 +1,132 @@
+{% schema %}
+{
+  "name": "Video Slider",
+  "tag": "section",
+  "settings": [
+    {
+        "type": "text",
+        "id": "custom_css",
+        "label": "Custom css"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description"
+      },
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "Video Slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "video_url",
+          "label": "Video URL (YouTube/Vimeo/MP4)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Slider",
+      "category": "Media"
+    }
+  ]
+}
+{% endschema %}
+<div class="{{ section.settings.custom_css }} page-width">
+  <div class="cst-testimonial-header">
+    {% if section.settings.heading != blank %}
+      <h2 class="testimonial-heading  cst-common-head">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% if section.settings.description != blank %}
+      <div class="testimonial-desription">
+        <p>{{ section.settings.description }}</p>
+      </div>
+    {% endif %}
+  </div>
+  <div class="video-slider-container">
+    <div class="video-slider">
+      {% for block in section.blocks %}
+        <div class="video-slide">
+          <div class="video-slide-child">
+            {% if block.settings.video_url contains 'youtube' %}
+              <iframe
+                src="{{ block.settings.video_url | replace: 'watch?v=', 'embed/' }}"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            {% elsif block.settings.video_url contains 'vimeo' %}
+              <iframe
+                src="{{ block.settings.video_url | replace: 'vimeo.com/', 'player.vimeo.com/video/' }}"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            {% else %}
+              <video controls>
+                <source src="{{ block.settings.video_url }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<style>
+  .video-slider {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+  }
+  .video-slide {
+    text-align: center;
+  }
+  .video-slide iframe, .video-slide video {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+  }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+
+<script>
+  $(document).ready(function(){
+    $('.video-slider').slick({
+      dots: true,
+      arrows: true,
+      autoplay: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 711,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+    ]
+    });
+  });
+</script>

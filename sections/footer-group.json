@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter_bTnVrg": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bEUzCa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Pioneer Family",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_dxrBW4": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>for exclusive discounts and  new product launch updates!</strong></p>"
+          }
+        },
+        "email_form_qn3Tir": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_bEUzCa",
+        "paragraph_dxrBW4",
+        "email_form_qn3Tir"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom-css": "cst-email-signup-section home",
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "full_width": true,
+        "padding_top": 76,
+        "padding_bottom": 72
+      }
+    },
+    "custom_newsletters_tU33Vz": {
+      "type": "custom-newsletters",
+      "blocks": {
+        "heading_mPmdri": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Pioneer Family",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_EV3aNw": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>for exclusive discounts and  new product launch updates!</strong></p>"
+          }
+        },
+        "email_form_UHxNQx": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_mPmdri",
+        "paragraph_EV3aNw",
+        "email_form_UHxNQx"
+      ],
+      "name": "newsletternew",
+      "settings": {
+        "custom-css": "cst-email-signup-section home",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image_YBFMAV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BFD176D3-8B7C-4EE5-BBC5-E13777087AE8_-_Edited_f2345666-578e-4801-a2ec-b82b115369a5.png",
+            "image_width": 550,
+            "alignment": "center"
+          }
+        },
+        "link_list_MTpmDG": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Main Menu",
+            "menu": "main-menu"
+          }
+        },
+        "link_list_YXQNBY": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Looking For ?",
+            "menu": "customer-account-main-menu"
+          }
+        },
+        "brand_information_yJgFDm": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "image_YBFMAV",
+        "link_list_MTpmDG",
+        "link_list_YXQNBY",
+        "brand_information_yJgFDm"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "newsletter_bTnVrg",
+    "custom_newsletters_tU33Vz",
+    "footer"
+  ]
+}

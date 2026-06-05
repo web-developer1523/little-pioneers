@@ -1,0 +1,248 @@
+<section class="page-width {{ section.settings.custom-css }}">
+  <h2 class="cst-common-head">{{ section.settings['section-heading'] }}</h2>
+  <div class="table-center">
+    <div class="table-body">
+      <table>
+        <thead>
+          <tr>
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {%- when 'table-column' -%}
+                  <th width="20%">{{ block.settings.col }}</th>
+              {% endcase %}
+            {% endfor %}
+          </tr>
+        </thead>
+
+        <div class="scroll-container" data-simplebar>
+          <tbody>
+            {% for block in section.blocks %}
+              <tr>
+                {% case block.type %}
+                  {%- when 'table-row' -%}
+                    <td width="20%">{{ block.settings.cell1 }}</td>
+                    <td width="20%">{{ block.settings.cell2 }}</td>
+                    <td width="20%">{{ block.settings.cell3 }}</td>
+                    <td width="20%">{{ block.settings.cell4 }}</td>
+                    <td width="20%">{{ block.settings.cell5 }}</td>
+                    <td width="20%">{{ block.settings.cell6 }}</td>
+                {% endcase %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </div>
+      </table>
+    </div>
+  </div>
+</section>
+{% comment %}
+  <style>
+      .table-center {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background: #009495;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    td {
+      font-size: 16px;
+      color: #333;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f4f7fc;
+    }
+
+
+    .action-phone {
+      display: inline-flex;
+      color: #001d3d;
+      border-radius: 5px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .action-phone:hover {
+      color: #009495;
+      text-decoration: underline;
+    }
+    .action-mail {
+      display: inline-flex;
+      color: #003566;
+      border-radius: 5px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .action-mail:hover {
+      color: #009495;
+      text-decoration: underline;
+    }
+    .dept {
+      display: inline-flex;
+      padding: 3px 10px;
+      font-size: 12px;
+      border-radius: 5px;
+      color: #fff;
+      margin-top: 2px;
+      margin-bottom: 2px;
+    }
+    .color-1 {
+      background-color: #ef476f;
+    }
+    .color-2 {
+      background-color: #ffd166;
+      color: #000;
+    }
+    .color-3 {
+      background-color: #06d6a0;
+      color: #000;
+    }
+    .color-4 {
+      background-color: #118ab2;
+    }
+    .color-5 {
+      background-color: #073b4c;
+    }
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      display: none;
+      margin-right: 10px;
+    }
+    @media screen and (max-width: 767px) {
+      table,
+      tbody,
+      tr,
+      td,
+      th {
+        display: block;
+        width: 100%;
+        padding: 0;
+      }
+      .table-center > table {
+        display: none;
+      }
+      th {
+        display: none;
+      }
+      .simplebar-content tr {
+        overflow: hidden;
+      }
+      .simplebar-content tr td {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: calc(100% - 40px);
+      }
+
+      td {
+        text-align: left;
+      }
+
+      td::before {
+        display: inline-block;
+        color: #009495;
+      }
+
+      tr {
+        padding: 10px 0px;
+        border-bottom: 2px solid #009495;
+      }
+      .simplebar-content tbody tr:last-child{
+        border: 0;
+      }
+    }
+  </style>
+{% endcomment %}
+{% schema %}
+{
+  "name": "Table",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom-css",
+      "label": "Custom css"
+    },
+     {
+      "type": "inline_richtext",
+      "id": "section-heading",
+      "label": "Heading"
+    }
+  ],
+  "blocks":[
+     {
+      "type": "table-column",
+      "name": "table-column",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "col",
+          "label": "Column text"
+        }
+      ]
+    },
+    {
+      "type": "table-row",
+      "name": "table row",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "cell1",
+          "label": "Row text"
+        },
+        {
+          "type": "html",
+          "id": "cell2",
+          "label": "Row text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "cell3",
+          "label": "Row text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "cell4",
+          "label": "Row text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "cell5",
+          "label": "Row text"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "cell6",
+          "label": "Row text"
+        }
+      ]
+    },
+  ],
+  "presets": [
+    {
+      "name":"Table",
+    }
+  ]
+}
+{% endschema %}

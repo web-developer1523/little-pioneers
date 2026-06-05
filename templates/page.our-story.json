@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_zmGKVi": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rCc8cd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Back Story</strong>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_KzhrLB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_C6AC4Q": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rCc8cd",
+        "text_KzhrLB",
+        "buttons_C6AC4Q"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "story_book_H3bXVP": {
+      "type": "story-book",
+      "blocks": {
+        "book_page_hJ3874": {
+          "type": "book-page",
+          "settings": {
+            "chapter-heading": "",
+            "book-text": "A Love for Food and Family When my daughter Oaklee began her solids journey at 6 months, her instant love for food reminded me of my own childhood memories of helping my mum cook. Living in a small home meant I needed a solution that was both slimline and multi-use—so I could include Oaklee in meal times without cluttering our kitchen with multiple baby products",
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_8_2025_12_57_18_PM.png"
+          }
+        },
+        "book_page_YaGVbH": {
+          "type": "book-page",
+          "settings": {
+            "chapter-heading": "",
+            "book-text": "Space, Style, and Inclusion I searched for a high chair that would grow with my daughter and allow her to join in our family meals. I followed the baby-led weaning philosophy, always giving Oaklee the same delicious, nutritious meals as the rest of the family. Unfortunately, I couldn’t find a product in the Australian market that met these needs, especially one that was compact enough for a small home.",
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_8_2025_01_42_08_PM.png"
+          }
+        },
+        "book_page_gBkqCb": {
+          "type": "book-page",
+          "settings": {
+            "chapter-heading": "",
+            "book-text": "Research and Collaboration Determined to create a solution, I began researching multi-use products that combined a high chair with a learning tower—one that would let Oaklee safely stand and participate in meal preparation. With passion and persistence, I partnered with an experienced engineer and product designer to bring a safe, innovative design to life.",
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_8_2025_01_34_34_PM.png"
+          }
+        },
+        "book_page_KnJtxM": {
+          "type": "book-page",
+          "settings": {
+            "chapter-heading": "",
+            "book-text": "Introducing The Little Pioneers The result is Australia’s first Learning Tower & High Chair Combo—a product born out of a personal journey and a love for food, family, and independence. At The Little Pioneers, we’re committed to empowering families by making everyday moments more inclusive, safe, and memorable. Join us on this exciting adventure as we help every little explorer grow and participate in life’s delicious experiences!",
+            "image": "shopify://shop_images/ChatGPT_Image_Apr_8_2025_01_37_15_PM.png"
+          }
+        }
+      },
+      "block_order": [
+        "book_page_hJ3874",
+        "book_page_YaGVbH",
+        "book_page_gBkqCb",
+        "book_page_KnJtxM"
+      ],
+      "settings": {
+        "custom-css": "cst-book-slider",
+        "cover_image": "shopify://shop_images/ChatGPT_Image_Apr_8_2025_01_39_17_PM.png",
+        "end_cover_image": "shopify://shop_images/Resized_Back_Cover.png"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_zmGKVi",
+    "story_book_H3bXVP"
+  ]
+}

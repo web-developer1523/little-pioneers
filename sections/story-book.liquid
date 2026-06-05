@@ -1,0 +1,646 @@
+<section class="book bound 2">
+  <article class="pages">
+    <!-- Spread 1: Cover -->
+    <img
+      id="page-cover"
+      class="page"
+      src="{{ section.settings.cover_image | img_url: 'master' }}"
+      alt="Book cover"
+    >
+
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'book-page' %}
+          <div id="page-{{ forloop.index }}" class="page">
+            <h2 class="cst-common-head">{{ block.settings['chapter-heading'] }}</h2>
+            <p>{{ block.settings['book-text'] }}</p>
+          </div>
+          <img
+            src="{{ block.settings.image | img_url: 'master' }}"
+            alt="Page 1"
+            id="page-{{ forloop.index }}"
+            class="page"
+          >
+      {% endcase %}
+    {% endfor %}
+    <!--
+      Spread 1: Cover
+      <img id="page-cover" class="page" src="https://assets.codepen.io/191814/cammie+goes+to+mardi+gras+cover.webp" alt="Book cover">
+      <p id="page-cover" class="page">cover page</p>
+      <p id="page-cover" class="page" id="page-cover" class="page">text page</p>
+    -->
+
+    <!--
+      Spread 2: Pages 1 and 2
+      <img class="page" id="page-1" src="https://assets.codepen.io/191814/mg-sammie-hurricane-1.jpg" alt="Page 1">
+      <img class="page" id="page-2" src="https://assets.codepen.io/191814/mg-sammie-hurricane-2.jpg" alt="Page 2">
+    -->
+
+    <!--
+      Spread 3: Pages 3 and 4
+      <img class="page" id="page-3" src="https://assets.codepen.io/191814/mg-sammie-big-daddies-1.jpg" alt="Page 3">
+      <img class="page" id="page-4" src="https://assets.codepen.io/191814/mg-sammie-big-daddies-2b.jpg" alt="Page 4">
+    -->
+
+    <!--
+      Spread 4: Pages 5 and 6
+      <img class="page" id="page-5" src="https://assets.codepen.io/191814/mg-sammie-barkus-1.jpg" alt="Page 5">
+      <img class="page" id="page-6" src="https://assets.codepen.io/191814/mg-sammie-barkus-2.jpg" alt="Page 6">
+    -->
+
+    <!--
+      Spread 5: Pages 7 and 8
+      <img class="page" id="page-7" src="https://assets.codepen.io/191814/mg-sammie-parade-1.jpg" alt="Page 7">
+      <img class="page" id="page-8" src="https://assets.codepen.io/191814/mg-sammie-parade-2.jpg" alt="Page 8">
+    -->
+
+    <!--
+      Spread 6: Pages 9 and 10
+      <img class="page" id="page-9" src="https://assets.codepen.io/191814/mg-sammie-king-1.jpg" alt="Page 9">
+      <img class="page" id="page-10" src="https://assets.codepen.io/191814/mg-sammie-king-2.jpg" alt="Page 10">
+    -->
+
+    <!--
+      Spread 7: Pages 11 and 12
+      <img class="page" id="page-11" src="https://assets.codepen.io/191814/mg-sammie-drag-1.jpg" alt="Page 11">
+      <img class="page" id="page-12" src="https://assets.codepen.io/191814/mg-sammie-drag-2.jpg" alt="Page 12">
+    -->
+
+    <!--
+      Spread 8: Pages 13 and 14
+      <img class="page" id="page-13" src="https://assets.codepen.io/191814/mg-sammie-late-1.jpg" alt="Page 13">
+      <img class="page" id="page-14" src="https://assets.codepen.io/191814/mg-sammie-late-2.jpg" alt="Page 14">
+    -->
+
+    <!--
+      Spread 9: Pages 15 and 16
+      <img class="page" id="page-15" src="https://assets.codepen.io/191814/mg-sammie-clean-up-1.jpg" alt="Page 15">
+      <img class="page" id="page-16" src="https://assets.codepen.io/191814/mg-sammie-clean-up-2.jpg" alt="Page 16">
+    -->
+
+    <!--
+      Spread 10: Pages 17 and 18
+      <img class="page" id="page-17" src="https://assets.codepen.io/191814/mg-sammie-bead-haul-1.jpg" alt="Page 17">
+      <img class="page" id="page-18" src="https://assets.codepen.io/191814/mg-sammie-bead-haul-2.jpg" alt="Page 18">
+    -->
+
+    <!-- Back Cover -->
+    <img
+      id="back-cover"
+      class="page"
+      src="{{ section.settings.end_cover_image | img_url: 'master' }}"
+      alt="Back cover"
+    >
+  </article>
+  <!-- Navigation buttons -->
+  <div class="book-navigation-btns">
+    <button id="prevBtn" class="cst-common-btn">Previous</button>
+    <button id="nextBtn" class="cst-common-btn">Next</button>
+  </div>
+</section>
+
+<!-- book slider -->
+<section class="{{ section.settings.custom-css }} page-width">
+  <div class="book-slider-container">
+    <div class="page-slider">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {%- when 'book-page' -%}
+            <div class="page-slide">
+              <img src="{{ block.settings.image | img_url: 'master'}}" width="500" height="500">
+              <div class="book-content">
+                <h2 class="cst-common-head">{{ block.settings['chapter-heading'] }}</h2>
+                <p>{{ block.settings['book-text'] }}</p>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+       .book {
+       transition: opacity 0.4s 0.2s;
+       }
+
+       .book .bound .page {
+       width: 36vw;
+       height: 36vw;
+       /* Adjust height to match width for 1:1 ratio */
+       overflow:hidden;
+       object-fit:fill;
+       }
+
+       .page img {
+       width: 100%;
+       height: auto;
+       }
+
+       .page:first-child {
+       float: right;
+
+       }
+
+       .page:nth-child(even) {
+       clear: both;
+
+       }
+
+       .page:nth-child(odd) {
+       clear: both;
+
+       }
+
+       .bound {
+       perspective: 250vw;
+       }
+
+       .bound .pages {
+         text-align:center;
+       width: 72vw;
+       height: 550px;
+       /* Matches 1:1 aspect ratio */
+       position: relative;
+       transform: rotateX(12deg);
+       transform-style: preserve-3d;
+       backface-visibility: hidden;
+       border-radius: 4px;
+       max-width:100%;
+       margin:0 auto;
+       }
+
+       .bound .page {
+          display: flex;
+       flex-direction: column;
+       justify-content: center;
+         background-color:white;
+        
+       float: none;
+       clear: none;
+       margin: 0;
+       position: absolute;
+       top: 0;
+       width: 36vw;
+       height: 36vw;
+       /* Matches 1:1 aspect ratio */
+       transform-origin: 0 0;
+       transition: transform 1.4s;
+       backface-visibility: hidden;
+       transform-style: preserve-3d;
+       user-select: none;
+       }
+
+       .bound .page:before {
+       content: "";
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       background: rgba(0, 0, 0, 0);
+       transition: background 0.7s;
+       z-index: 2;
+       }
+
+       .bound .page:nth-child(odd) {
+       pointer-events: all;
+       transform: rotateY(0deg);
+       right: 0;
+       border-radius: 0 4px 4px 0;
+       color: #ded0c4;
+       border: 1px solid;
+       background:#fff;
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+         height:500px;
+         object-fit:fill;
+       }
+
+       .bound .page:nth-child(odd):hover {
+       transform: rotateY(-10deg);
+       }
+
+       .bound .page:nth-child(odd):hover:before {
+       background: rgba(0, 0, 0, 0.03);
+       }
+
+       .bound .page:nth-child(even) {
+       pointer-events: none;
+       transform: rotateY(180deg);
+       transform-origin: 100% 0;
+       left: 0;
+       border-radius: 4px 0 0 4px;
+
+       }
+
+       .bound .page:nth-child(even):before {
+       background: rgba(0, 0, 0, 0.01);
+       }
+
+       .bound .page.grabbing {
+       transition: none;
+       }
+
+       .bound .page.flipped:nth-child(odd) {
+          
+       pointer-events: none;
+       transform: rotateY(-180deg);
+        background: #ffffff;
+       color: #ded0c4;
+       padding: 20px;
+       border: 1px solid;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      height:500px;
+         object-fit:fill;
+       }
+
+       .bound .page.flipped:nth-child(odd):before {
+       background: rgba(0, 0, 0, 0.01);
+       }
+
+       .bound .page.flipped:nth-child(even) {
+        
+       pointer-events: all;
+       transform: rotateY(0deg);
+       background: #ffffff;
+       color: #ded0c4;
+       padding: 20px;
+       border: 1px solid;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      height:500px;
+         object-fit:fill;
+       }
+    .bound .page:nth-child(even) {
+        height: 500px;
+      padding: 20px;
+    }
+       /* .bound .page.flipped:nth-child(even):hover {
+       transform: rotateY(10deg);
+       }
+
+       .bound .page.flipped:nth-child(even):hover:before {
+       background: rgba(0, 0, 0, 0.01);
+       } */
+
+    .book-navigation-btns{
+      display:flex;
+      justify-content:center;
+    }
+  button#prevBtn {
+      background: var(--golden);
+      border: 1px solid var(--golden);
+      color: var(--bgcreme);
+      font-size: 16px;
+      line-height: 1;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: Kollektif;
+      padding: 12px 25px;
+      border-radius: 3px;
+      transition: .3s;
+      margin: 5px;
+    cursor:pointer;
+  }
+
+    button#nextBtn {
+      background: var(--golden);
+      border: 1px solid var(--golden);
+      color: var(--bgcreme);
+      font-size: 16px;
+      line-height: 1;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: Kollektif;
+      padding: 12px 25px;
+      border-radius: 3px;
+      transition: .3s;
+      margin: 5px;
+       cursor:pointer;
+  }
+
+       @media screen and (max-width: 768px) {
+       /* Adjust the breakpoint as needed */
+       .pages {
+         width: 36vw;
+         height: 36vw;
+         /* 1:1 ratio for single-page layout*/
+       }
+
+       .page {
+       width: 100%;
+       height: auto;
+       position: static;
+       /* Disable absolute positioning */
+       transform: none;
+       /* Disable 3D transform */
+       margin-bottom: 1rem;
+       /* Add spacing between pages */
+       }
+
+       .page:first-child,
+       .page:nth-child(even),
+       .page:nth-child(odd) {
+       cursor: default;
+       /* Remove cursor styles for single-page layout */
+       }
+
+       .page:hover {
+       transform: none;
+       /* Disable hover effects */
+       }
+       }
+</style>
+
+<script>
+              // Manage z-index for pages
+           /* const pages = document.querySelectorAll('.pages > *');
+            pages.forEach((page, i) => {
+              if (i % 2 === 0) {
+                page.style.zIndex = pages.length - i;
+              }
+            });
+
+            let currentIndex = 0;
+            function autoFlip() {
+              if (currentIndex < pages.length - 1) {
+                const page = pages[currentIndex];
+                const nextPage = pages[currentIndex + 1];
+
+                page.classList.add('flipped');
+                nextPage?.classList.add('flipped');
+
+                currentIndex += 2;
+              } else {
+                // Reset book when last page is reached
+                pages.forEach(page => page.classList.remove('flipped'));
+                currentIndex = 0;
+              }
+            }
+
+            // Start automatic page flipping every 2 seconds
+            setInterval(autoFlip, 2000);
+
+            // Adjust layout for small screens
+            function adjustLayout() {
+              const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+              if (isSmallScreen) {
+                pages.forEach(page => page.classList.remove('flipped'));
+              }
+            }
+
+            // Run on load and on resize
+            window.addEventListener('load', adjustLayout);
+            window.addEventListener('resize', adjustLayout);
+
+            document.querySelector('.book')?.classList.add('bound');*/
+
+      /*-----------------------------------------------------------------*/
+        //stop autoflip on mouseover
+      // Manage z-index for pages
+       /* const pages = document.querySelectorAll('.pages > *');
+        pages.forEach((page, i) => {
+          if (i % 2 === 0) {
+            page.style.zIndex = pages.length - i;
+          }
+        });
+
+        let currentIndex = 0;
+        let flipInterval = null; // To store the interval reference
+
+        // Function to start the automatic page flipping
+        function startAutoFlip() {
+          flipInterval = setInterval(autoFlip, 1500);
+        }
+
+        // Function to stop the automatic page flipping
+        function stopAutoFlip() {
+          if (flipInterval) {
+            clearInterval(flipInterval);
+            flipInterval = null;
+          }
+        }
+
+        function autoFlip() {
+          if (currentIndex < pages.length - 1) {
+            const page = pages[currentIndex];
+            const nextPage = pages[currentIndex + 1];
+
+            page.classList.add('flipped');
+            nextPage?.classList.add('flipped');
+
+            currentIndex += 2;
+          } else {
+            // Reset book when last page is reached
+            pages.forEach(page => page.classList.remove('flipped'));
+            currentIndex = 0;
+          }
+        }
+
+        // Start automatic page flipping on load
+        startAutoFlip();
+
+        // Stop automatic flipping when cursor is on any page
+        pages.forEach(page => {
+          page.addEventListener('mouseover', stopAutoFlip); // Stop flipping when mouse is over
+          page.addEventListener('mouseout', startAutoFlip); // Resume flipping when mouse leaves
+        });
+
+        // Adjust layout for small screens
+        function adjustLayout() {
+          const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+          if (isSmallScreen) {
+            pages.forEach(page => page.classList.remove('flipped'));
+          }
+        }
+
+        // Run on load and on resize
+        window.addEventListener('load', adjustLayout);
+        window.addEventListener('resize', adjustLayout);
+
+        // Add 'bound' class to book element
+        document.querySelector('.book')?.classList.add('bound');*/
+
+      /*-----------------------------------------------------------------*/
+    // JavaScript
+  const pages = document.querySelectorAll('.pages > *');
+  pages.forEach((page, i) => {
+    if (i % 2 === 0) {
+      page.style.zIndex = pages.length - i;
+    }
+  });
+
+  let currentIndex = 0;
+  let flipInterval = null; // To store the interval reference
+
+  // Function to start the automatic page flipping
+  function startAutoFlip() {
+    // Avoid starting multiple intervals
+    if (!flipInterval) {
+      flipInterval = setInterval(autoFlip, 1500);
+    }
+  }
+
+  // Function to stop the automatic page flipping
+  function stopAutoFlip() {
+    if (flipInterval) {
+      clearInterval(flipInterval);
+      flipInterval = null;
+    }
+  }
+
+  function autoFlip() {
+    if (currentIndex < pages.length - 1) {
+      const page = pages[currentIndex];
+      const nextPage = pages[currentIndex + 1];
+      page.classList.add('flipped');
+      if (nextPage) nextPage.classList.add('flipped');
+      currentIndex += 2;
+    } else {
+      // Reset book when last page is reached
+      pages.forEach(page => page.classList.remove('flipped'));
+      currentIndex = 0;
+    }
+  }
+
+  // Manual navigation: move to the next two pages
+  function nextPage() {
+    stopAutoFlip();
+    if (currentIndex < pages.length - 1) {
+      const page = pages[currentIndex];
+      const nextPageElem = pages[currentIndex + 1];
+      page.classList.add('flipped');
+      if (nextPageElem) nextPageElem.classList.add('flipped');
+      currentIndex += 2;
+    }
+  }
+
+  // Manual navigation: go back two pages
+  function previousPage() {
+    stopAutoFlip();
+    if (currentIndex > 0) {
+      currentIndex -= 2;
+      const page = pages[currentIndex];
+      const nextPageElem = pages[currentIndex + 1];
+      page.classList.remove('flipped');
+      if (nextPageElem) nextPageElem.classList.remove('flipped');
+    }
+  }
+
+  // Start automatic page flipping on load
+  startAutoFlip();
+
+  // Stop automatic flipping when cursor is on any page
+  pages.forEach(page => {
+    page.addEventListener('mouseover', stopAutoFlip);
+    page.addEventListener('mouseout', startAutoFlip);
+  });
+
+  // Add event listeners for the manual buttons
+  document.getElementById('nextBtn').addEventListener('click', nextPage);
+  document.getElementById('prevBtn').addEventListener('click', previousPage);
+
+  // Adjust layout for small screens
+  function adjustLayout() {
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+    if (isSmallScreen) {
+      pages.forEach(page => page.classList.remove('flipped'));
+    }
+  }
+
+  window.addEventListener('load', adjustLayout);
+  window.addEventListener('resize', adjustLayout);
+
+  // Add 'bound' class to book element
+  document.querySelector('.book')?.classList.add('bound');
+
+  //---------------------------------------------------------------------
+          // slider code
+    $(document).ready(function(){
+      $('.page-slider').slick({
+         dots: true,
+         autoplay: true,
+         slidesToShow: 3,
+         slidesToScroll: 1,
+         infinite : true,
+         autoplaySpeed: 1000,
+         speed: 1000,
+         responsive: [
+           {
+             breakpoint: 767,
+             settings: {
+               arrows: false,
+
+               slidesToShow: 1
+             }
+           },
+           {
+             breakpoint: 595,
+             settings: {
+               arrows: false,
+
+               slidesToShow: 1
+             }
+           }
+         ]
+       });
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Story book",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom-css",
+      "label": "Custom Css"
+    },
+    {
+      "type": "image_picker",
+      "id": "cover_image",
+      "label": "front cover"
+    },
+    {
+      "type": "image_picker",
+      "id": "end_cover_image",
+      "label": "Back cover"
+    }
+  ],
+  "blocks":[
+    {
+      "type": "book-page",
+      "name": "book page",
+      "settings": [
+        {
+          "type": "text",
+          "id":"chapter-heading",
+          "label":"Chapter Heading"
+        },
+        {
+          "type": "inline_richtext",
+          "id":"book-text",
+          "label": "Book text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Book image"
+        }
+
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name":"Story book"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,185 @@
+<section class="{{ section.settings.custom_css }} page-width">
+  <div class="cst-review-header">
+    {% if section.settings.heading != blank %}
+      <h2 class="cst-common-head">{{ section.settings.heading }}</h2>
+    {% endif %}
+  </div>
+  <div class="review-slider-container">
+    <div class="review-slider">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {%- when 'Testimonial' -%}
+            <div class="cst-user-slide {% if section.settings.column_alignment == 'center' %} center{% endif %}">
+              <div class="review-content">
+                <div class="cst-slider-image">
+                  <img src="{{ block.settings.image | img_url: 'master'}}" width="500" height="300">
+                </div>
+                <h3>{{ block.settings['user-name'] }}</h3>
+                <p>{{ block.settings['testimonial-msg'] }}</p>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+    {% if section.settings.button_label %}
+      <a href="#">{{ section.settings.button_label }}</a>
+    {% endif %}
+  </div>
+</section>
+<script>
+  $(document).ready(function(){
+
+     $('.review-slider').slick({
+     dots: {{ section.settings.dots }},
+     autoplay: {{ section.settings.autoplay }},
+     slidesToShow: {{ section.settings.slide_to_show }},
+     slidesToScroll: {{ section.settings.slide_to_scroll }},
+     infinite : {{ section.settings.infinite }},
+     autoplaySpeed: {{ section.settings.autoplay_speed }},
+     speed: {{section.settings.transition_speed}},
+
+     responsive: [
+       {
+         breakpoint:991,
+         settings: {
+           arrows: false,
+
+           slidesToShow: 1
+         }
+       },
+       {
+         breakpoint: 480,
+         settings: {
+           arrows: false,
+
+           slidesToShow: 1
+         }
+       }
+     ]
+   });
+   });
+</script>
+
+{% schema %}
+{
+  "name": "reviews",
+  "settings": [
+     {
+      "type": "text",
+      "id": "custom_css",
+      "label": "Custom css"
+    },
+    {
+      "type":"inline_richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "column_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.multicolumn.settings.column_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.multicolumn.settings.column_alignment.options__2.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.multicolumn.settings.column_alignment.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+    },
+    {
+      "type": "url",
+      "id": "exp_page_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Slider Settings"
+    },
+    {
+      "type": "number",
+      "id": "slide_to_show",
+      "default": 1,
+      "label": "Slide to show"
+    },
+    {
+      "type": "number",
+      "id": "slide_to_scroll",
+      "default": 1,
+      "label": "Slide to scroll"
+    },
+    {
+      "type": "checkbox",
+      "id": "dots",
+      "default":true,
+      "label": "Show slider dots"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "default":true,
+      "label": "Allow autoplay"
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "min": 1000,
+      "max": 9000,
+      "step": 1000,
+      "label": "Autoplay speed",
+      "default": 1000
+    },
+    {
+      "type": "checkbox",
+      "id": "infinite",
+      "default":true,
+      "label": "Allow infinite looping"
+    },
+   {
+    "type": "range",
+    "id": "transition_speed",
+    "min": 1000,
+    "max": 9000,
+    "step": 1000,
+    "label": "Transition speed",
+    "default": 1000
+  }
+  ],
+  "blocks": [
+    {
+      "type": "Testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "user-name",
+          "label": "Sub heading"
+        },
+        {
+          "type": "richtext",
+          "id": "testimonial-msg",
+          "label": "Message"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "reviews"
+    }
+  ]
+}
+{% endschema %}

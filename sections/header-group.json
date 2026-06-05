@@ -1,0 +1,100 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Empowering Little Explorers Through Everyday Play, Mealtimes & Milestones",
+            "text2": "",
+            "link": ""
+          }
+        },
+        "announcement_bdUDqF": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE BIB AND CUTLERY SET FOR ALL ORDERS OVER $80",
+            "text2": "*Must be redeemed at checkout*",
+            "link": ""
+          }
+        },
+        "announcement_EV3gy8": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text2": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_qTCDW6": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING for orders over $95",
+            "text2": "",
+            "link": ""
+          }
+        },
+        "announcement_xKYTpD": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text2": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_bdUDqF",
+        "announcement_EV3gy8",
+        "announcement_qTCDW6",
+        "announcement_xKYTpD"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "menu_color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

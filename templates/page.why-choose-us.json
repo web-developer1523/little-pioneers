@@ -1,0 +1,356 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_fD9LKf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_anf9yR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why Choose Us</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_anf9yR"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "testimonial_TmpNUx": {
+      "type": "testimonial",
+      "blocks": {
+        "video_CtjDzg": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_TFMJJ4": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_Rh8nAe": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_EHBH7A": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_CtjDzg",
+        "video_TFMJJ4",
+        "video_Rh8nAe",
+        "video_EHBH7A"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_css": "cst-video-slider",
+        "heading": "Why choose us",
+        "description": ""
+      }
+    },
+    "rich_text_pMM7gE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6in8Qp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "text_7enXfJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At The Little Pioneers, we believe everyday moments are opportunities for connection, independence, and growth. Our mission is to support families in raising confident, capable kids—starting with thoughtfully designed tools that bring children into the heart of the action.</p><p></p><p>From mealtimes to messy play, our curated collection of feeding gear, baking kits, and open-ended toys is built to encourage creativity, self-reliance, and fun.</p><p></p><p>And while you explore our current range, know this — we’re working on something exciting that reimagines how families use space, save money, and support their child’s development.</p><p></p><p>Stay tuned — something <em>innovative</em> is just around the corner.</p>"
+          }
+        },
+        "button_fRej69": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6in8Qp",
+        "text_7enXfJ",
+        "button_fRej69"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "custom_class": "why-choose-us-richtext",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "table_zNkNwB": {
+      "type": "table",
+      "blocks": {
+        "table_column_BRcjUY": {
+          "type": "table-column",
+          "settings": {
+            "col": "<strong>Feature/Function</strong>"
+          }
+        },
+        "table_column_N99VXj": {
+          "type": "table-column",
+          "settings": {
+            "col": "<strong>The Little Pioneers (3-in-1) V1</strong>"
+          }
+        },
+        "table_column_jjhhGB": {
+          "type": "table-column",
+          "settings": {
+            "col": "<strong>Traditional High Chair</strong>"
+          }
+        },
+        "table_column_7qBnnD": {
+          "type": "table-column",
+          "settings": {
+            "col": "<strong>Learning Tower</strong>"
+          }
+        },
+        "table_column_Drek77": {
+          "type": "table-column",
+          "settings": {
+            "col": "<strong>Kids Table & Chair</strong>"
+          }
+        },
+        "table_column_AykpPm": {
+          "type": "table-column",
+          "settings": {
+            "col": "<strong>Total Cost & Space (Separate Items)</strong>"
+          }
+        },
+        "table_row_qkGNHf": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>High Chair (6+ months)</strong>",
+            "cell2": "✔️",
+            "cell3": "✔️",
+            "cell4": "❌",
+            "cell5": "❌",
+            "cell6": ""
+          }
+        },
+        "table_row_VTAgHC": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Learning Tower (10+ months)</strong>",
+            "cell2": "✔️",
+            "cell3": "❌",
+            "cell4": "✔️",
+            "cell5": "❌",
+            "cell6": ""
+          }
+        },
+        "table_row_iJheNz": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Table & Chair Mode</strong>",
+            "cell2": "✔️",
+            "cell3": "❌",
+            "cell4": "❌",
+            "cell5": "✔️",
+            "cell6": ""
+          }
+        },
+        "table_row_NdnaYt": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Adjustable Footrest</strong>",
+            "cell2": "✔️",
+            "cell3": "✔️",
+            "cell4": "some",
+            "cell5": "❌",
+            "cell6": ""
+          }
+        },
+        "table_row_WrpLKy": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Removable Tray</strong>",
+            "cell2": "✔️",
+            "cell3": "✔️",
+            "cell4": "Some",
+            "cell5": "❌",
+            "cell6": ""
+          }
+        },
+        "table_row_YqnUjz": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Meets Australian Standards</strong>",
+            "cell2": "✔️",
+            "cell3": "✔️",
+            "cell4": "❌",
+            "cell5": "❌",
+            "cell6": ""
+          }
+        },
+        "table_row_VWUY3B": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Takes Up Minimal Space</strong>",
+            "cell2": "✔️",
+            "cell3": "Bulky",
+            "cell4": "Bulky",
+            "cell5": "Bulky",
+            "cell6": ""
+          }
+        },
+        "table_row_44cnJq": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Total Cost</strong>",
+            "cell2": "TBD $$$",
+            "cell3": "$250+",
+            "cell4": "$250+",
+            "cell5": "$250+",
+            "cell6": "$650+ (Buying Separately)"
+          }
+        },
+        "table_row_ELURCC": {
+          "type": "table-row",
+          "settings": {
+            "cell1": "<strong>Total Space Used</strong>",
+            "cell2": "<strong>One Compact Design</strong>",
+            "cell3": "Large",
+            "cell4": "Large",
+            "cell5": "Large",
+            "cell6": "<strong>Takes up 3x More Space</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "table_column_BRcjUY",
+        "table_column_N99VXj",
+        "table_column_jjhhGB",
+        "table_column_7qBnnD",
+        "table_column_Drek77",
+        "table_column_AykpPm",
+        "table_row_qkGNHf",
+        "table_row_VTAgHC",
+        "table_row_iJheNz",
+        "table_row_NdnaYt",
+        "table_row_WrpLKy",
+        "table_row_YqnUjz",
+        "table_row_VWUY3B",
+        "table_row_44cnJq",
+        "table_row_ELURCC"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom-css": "cst-table-section",
+        "section-heading": "How The  Pioneer 3 In 1 Saves You Space & Money"
+      }
+    },
+    "reviwes_3jhKx7": {
+      "type": "reviwes",
+      "blocks": {
+        "testimonial_7apwc6": {
+          "type": "Testimonial",
+          "settings": {
+            "image": "shopify://shop_images/5woodenhighchair.webp",
+            "user-name": "",
+            "testimonial-msg": "<h2><strong>Use It for Mealtime 🍽</strong></h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+          }
+        },
+        "testimonial_8aXwpx": {
+          "type": "Testimonial",
+          "settings": {
+            "image": "shopify://shop_images/childkitchenstool_3.webp",
+            "user-name": "",
+            "testimonial-msg": "<h2><strong>Use It for Baking 🍪</strong></h2><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+          }
+        },
+        "testimonial_DGbdjP": {
+          "type": "Testimonial",
+          "settings": {
+            "image": "shopify://shop_images/close-up-boy-playing-indoors.jpg",
+            "user-name": "",
+            "testimonial-msg": "<h2><strong>Use It for Play & Learning 🎨</strong></h2><p>Lorem Ipsum<strong> </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_7apwc6",
+        "testimonial_8aXwpx",
+        "testimonial_DGbdjP"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_css": "custom-review",
+        "heading": "What Our Parents Say",
+        "column_alignment": "left",
+        "button_label": "",
+        "exp_page_link": "",
+        "slide_to_show": 2,
+        "slide_to_scroll": 1,
+        "dots": true,
+        "autoplay": true,
+        "autoplay_speed": 1000,
+        "infinite": true,
+        "transition_speed": 1000
+      }
+    }
+  },
+  "order": [
+    "image_banner_fD9LKf",
+    "main",
+    "testimonial_TmpNUx",
+    "rich_text_pMM7gE",
+    "table_zNkNwB",
+    "reviwes_3jhKx7"
+  ]
+}

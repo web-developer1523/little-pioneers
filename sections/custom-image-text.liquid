@@ -1,0 +1,61 @@
+<div class="{{ section.settings.custom-css }} page-width">
+  <div></div>
+  <div></div>
+  <div class="cst-content-section">
+    <div class="image-section">
+      <img src="{{ section.settings.image | img_url: 'master' }}" height="500" width="500">
+    </div>
+    <div class="text-section">
+      <h2 class=" cst-common-head">{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.description }}</p>
+      <a href="{{ section.settings.button_link }}" class="button cst-common-btn">
+        {{- section.settings['button-label'] -}}
+      </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Image with text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom-css",
+      "label": "Custom Css"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your heading here..."
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+    },
+    {
+      "type": "inline_richtext",
+      "id": "button-label",
+      "label": "Button Label",
+      "default": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image with text"
+    }
+  ]
+}
+{% endschema %}

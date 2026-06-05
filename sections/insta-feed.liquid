@@ -1,0 +1,25 @@
+<section class="{{ section.settings.custom-css }} page-width">
+  <h2 class="cst-common-head">{{ section.settings.heading }}</h2>
+</section>
+{% schema %}
+{
+  "name": "Insta-feed",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom-css",
+      "label": "Custom Css"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading"
+    }
+  ],
+  "presets": [
+    {
+      "name":"Insta-feed"
+    }
+  ]
+}
+{% endschema %}

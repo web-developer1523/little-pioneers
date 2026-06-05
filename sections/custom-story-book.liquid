@@ -1,0 +1,214 @@
+<section class="book bound 1">
+  <article class="pages">
+    <!-- Spread 1: Cover -->
+    <img
+      id="page-cover"
+      class="page"
+      src="https://assets.codepen.io/191814/cammie+goes+to+mardi+gras+cover.webp"
+      alt="Book cover"
+    >
+
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'book-page' %}
+          <div id="page-{{ forloop.index }}" class="page">
+            <p>{{ block.settings['book-text'] }}</p>
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="Page {{ forloop.index }}">
+          </div>
+      {% endcase %}
+    {% endfor %}
+
+    <img
+      id="back-cover"
+      class="page"
+      src="https://assets.codepen.io/191814/mg-sammie-page-back-cover.jpg"
+      alt="Back cover"
+    >
+  </article>
+</section>
+
+<style>
+  .book {
+      transition: opacity 0.4s 0.2s;
+  }
+
+  .page {
+      width: 36vw;
+      height: 36vw;
+      overflow: hidden;
+      object-fit: cover;
+      background-color: white;
+      border: 1px solid #ddd; /* Add border for card-like effect */
+      margin-bottom: 1rem; /* Space between cards */
+      transition: all 0.3s ease;
+  }
+
+  .page img {
+      width: 100%;
+      height: auto;
+  }
+
+  .page:first-child,
+  .page:nth-child(even),
+  .page:nth-child(odd) {
+      cursor: auto;
+  }
+
+  .bound {
+      perspective: none; /* Removed perspective for mobile */
+  }
+
+  .bound .pages {
+      width: 72vw;
+      height: 36vw;
+      position: relative;
+      transform: none; /* Remove 3D transform */
+      backface-visibility: hidden;
+      border-radius: 4px;
+  }
+
+  .bound .page {
+      margin: 0;
+      position: static; /* Removed absolute positioning for card layout */
+      width: 100%; /* Use full width */
+      height: auto; /* Let the height adjust based on content */
+      transform-origin: none; /* Removed transform origin for cards */
+      backface-visibility: visible; /* Ensure no flip effect */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      user-select: none;
+  }
+
+  .bound .page:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hover effect for card */
+  }
+
+  .bound .page.grabbing {
+      transition: none;
+  }
+
+  /* Media Queries for Responsiveness */
+  @media screen and (max-width: 1024px) {
+      .bound .pages {
+          width: 50vw;
+          height: auto;
+
+      }
+
+      .bound .page {
+          width: 90vw; /* Cards take up more width */
+          height: auto; /* Auto height for better fit */
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+      .bound .pages {
+          width: 90vw;
+          height: auto;
+
+      }
+
+      .bound .page {
+          width: 90vw;
+          height: auto; /* Cards scale nicely on smaller screens */
+          margin-bottom: 1rem; /* Space between pages */
+      }
+
+      .bound .page:nth-child(odd),
+      .bound .page:nth-child(even) {
+          transform: none; /* No transformation or flip */
+      }
+
+      .bound .page:before {
+          background: rgba(0, 0, 0, 0); /* No 3D background */
+      }
+  }
+
+  @media screen and (max-width: 480px) {
+      .bound .pages {
+          width: 90vw;
+          height: auto;
+          margin: 10px;
+
+      }
+
+      .bound .page {
+          width: 95vw;
+          height: auto; /* Make pages take almost full width on mobile */
+      }
+  }
+</style>
+
+<script>
+    // Manage z-index for pages
+  const pages = document.querySelectorAll('.pages > *');
+  pages.forEach((page, i) => {
+    page.style.zIndex = pages.length - i;  // Adjust z-index for stacking order
+  });
+
+  // Automatically flip pages, only for desktop
+  let currentIndex = 0;
+  function autoFlip() {
+    if (currentIndex < pages.length - 1) {
+      const page = pages[currentIndex];
+      const nextPage = pages[currentIndex + 1];
+
+      page.classList.add('flipped');
+      nextPage?.classList.add('flipped');
+
+      currentIndex += 2;
+    } else {
+      // Reset book when last page is reached
+      pages.forEach(page => page.classList.remove('flipped'));
+      currentIndex = 0;
+    }
+  }
+
+  // Start automatic page flipping every 2 seconds (for desktop)
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    setInterval(autoFlip, 2000);
+  }
+
+  // Adjust layout for small screens
+  function adjustLayout() {
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+    if (isSmallScreen) {
+      pages.forEach(page => page.classList.remove('flipped')); // Remove flipped effect
+    }
+  }
+
+  // Run on load and on resize
+  window.addEventListener('load', adjustLayout);
+  window.addEventListener('resize', adjustLayout);
+
+  document.querySelector('.book')?.classList.add('bound');
+</script>
+
+{% schema %}
+{
+  "name": "custom Story book",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "book-page",
+      "name": "book page",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "book-text",
+          "label": "Book text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Book image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom Story book"
+    }
+  ]
+}
+{% endschema %}

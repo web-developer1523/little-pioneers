@@ -1,0 +1,88 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "monk_embedded_cart_page_discount_code_PD9R3C": {
+          "type": "shopify://apps/monk/blocks/embedded-cart-page-discount-code/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+          "settings": {}
+        },
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "monk_embedded_cart_page_discount_code_PD9R3C",
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "newsletter_7NPt36": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_yDPn6C": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Pioneer Family",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_mQVaH7": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>exclusive discounts & early access to new products</strong>.</p>"
+          }
+        },
+        "email_form_NPg6CG": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_yDPn6C",
+        "paragraph_mQVaH7",
+        "email_form_NPg6CG"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom-css": "cst-email-signup-section",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "newsletter_7NPt36"
+  ]
+}

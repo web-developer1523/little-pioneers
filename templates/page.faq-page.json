@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_DNQVAk": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HP6b3p": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Frequently Asked Questions</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_MVjJbR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_7BpQpF": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HP6b3p",
+        "text_MVjJbR",
+        "buttons_7BpQpF"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collapsible_content_TNz8eL": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BKetg9": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is 'The Pioneer 3 in 1' ?",
+            "sub-heading": "<strong>Product & Safety </strong>",
+            "icon": "question_mark",
+            "row_content": "<p>A 3-in-1 multi-use product that converts from a high chair to a learning tower and table & seat, designed for safety, convenience, and space-saving.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R6wdAY": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Is it safe?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! It meets Australian high chair safety standards (AS 4684—2009) and is stability and weight tested for peace of mind.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yxjVhJ": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Has the product been tested?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p> Yes! Our design undergoes rigorous SGS quality control testing to ensure compliance with safety standards.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KJrDtg": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What are the product dimensions?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p> [Insert dimensions]</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Y6Ppic": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is the weight capacity?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p> [Insert weight capacity]</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BU6xMj": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What age is it suitable for?",
+            "sub-heading": "<strong>Age & Use</strong>",
+            "icon": "question_mark",
+            "row_content": "<p><br/>High Chair: From 6+ months (when baby can sit independently).<br/>Learning Tower: From 10+ months (when child can stand).<br/>Table & Seat Mode: For toddlers & preschoolers.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_g8GENg": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I switch between modes?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>The design easily converts between high chair, learning tower, and table & seat mode. A step-by-step guide is included.<br/>'You can also refer to our <a href=\"/pages/how-it-works\" title=\"How It Works\">'How it Works'</a> for a video demonstration<br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rbQnRp": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How much space does it take up?",
+            "sub-heading": "<strong>Space & Convenience</strong>",
+            "icon": "question_mark",
+            "row_content": "<p><br/>It’s slimline and compact, replacing three bulky products with one. [Insert space-saving measurements]</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pUfKwe": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Is the tray removable?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! It’s easy to attach, remove, and clean.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mjatbd": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Is it easy to clean?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Wipe down after meals and playtime—quick and hassle-free.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jgx784": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my order be shipped?",
+            "sub-heading": "<strong>Ordering & Delivery</strong>",
+            "icon": "question_mark",
+            "row_content": "<p>Orders are dispatched within 1-2 business days. Tracking details will be provided via email</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BJcYPN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer local pickup?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>We do offer local pick-up for our local customers.<br/><br/>When your order is ready, we’ll email you with the pick-up location and contact details so you can arrange a convenient time to collect your order.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_E8B8eL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you ship?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Australia-wide. International shipping coming soon!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_C8wfRw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much is shipping?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<ul><li><strong>Standard  Delivery </strong>$15.00 per purchase</li><li><strong>Free Standard Delivery </strong>for orders over <strong>$95</strong></li><li><strong>Express Delivery </strong>$25.00 per purchase </li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MhgFgi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p><strong>We want you to love your products!</strong><br/>If your item arrives faulty or damaged, please contact us within 7 days of receiving it with photos and a description of the issue. We’ll work quickly to offer a replacement or refund.</p><p><br/><strong>We do not offer change-of-mind returns.</strong></p><ul><li>Please ensure you read all product descriptions, dimensions, and safety notes before purchasing.</li><li>If you have any concerns, don’t hesitate to reach out —<strong> </strong><a href=\"https://9uxpjb9ph4icme9t-72436842720.shopifypreview.com/pages/contact\" title=\"Contact\">we’re here to help!</a></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3JRrYJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I contact support?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Reach us via email contact@thelittlepioneers.com.au or our <a href=\"/pages/contact\" title=\"Contact\">Contact us page.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CbgKUU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s your warranty policy?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>We offer a <strong>2-year manufacturing warranty </strong>on all Little Pioneers products. This covers any manufacturing defects in materials or workmanship.Please note, the warranty does not cover:</p><ul><li>Normal wear and tear</li><li>Damage caused by misuse or incorrect assembly</li><li>Modifications or use not intended by the instructions</li><li>Improper cleaning or storage</li></ul><p>If you experience a problem, just get in touch with us — we’ll make it right wherever we can!<br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BKetg9",
+        "collapsible_row_R6wdAY",
+        "collapsible_row_yxjVhJ",
+        "collapsible_row_KJrDtg",
+        "collapsible_row_Y6Ppic",
+        "collapsible_row_BU6xMj",
+        "collapsible_row_g8GENg",
+        "collapsible_row_rbQnRp",
+        "collapsible_row_pUfKwe",
+        "collapsible_row_mjatbd",
+        "collapsible_row_jgx784",
+        "collapsible_row_BJcYPN",
+        "collapsible_row_E8B8eL",
+        "collapsible_row_C8wfRw",
+        "collapsible_row_MhgFgi",
+        "collapsible_row_3JRrYJ",
+        "collapsible_row_CbgKUU"
+      ],
+      "settings": {
+        "custom-css": "cst-faq-section home-page faq-page",
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_DNQVAk",
+    "collapsible_content_TNz8eL"
+  ]
+}

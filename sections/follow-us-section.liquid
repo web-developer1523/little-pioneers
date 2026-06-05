@@ -1,0 +1,76 @@
+<div class="follow-us-section page-width">
+  <div class="follow-sec-header">
+  <h2 class="inline_richtext cst-common-head"> <img src="{{ section.settings.image|img_url:'master' }}" width="50" height="50" alt="the little pioneer coming soon">{{ section.settings.heading }}</h2>
+  </div>
+  <div class="follow-middle-div">
+  <div class="follow-desc">{{ section.settings.description }}{% if section.settings.image2 %} <img src="{{ section.settings.image2 | img_url:'master' }}" alt="image" width="30" height="30">{% endif %}</div>
+    <div class="arrow-img"><img src="https://cdn.shopify.com/s/files/1/0724/3684/2720/files/image_15.png?v=1749040332"  alt="the little pioneer coming soon"></div>
+  <div class="social-icon">
+     <a href="{{ section.settings.insta }}" class="social-acc-link">
+       <span class="svg-wrapper">
+          {{- 'icon-instagram.svg' | inline_asset_content -}}
+       </span>
+       <h3 class="socail-media-handle">Instagram</h3>
+     </a>
+     <a href="{{ section.settings.tiktok }}" class="social-acc-link">
+       <span class="svg-wrapper">
+        {{- 'icon-tiktok.svg' | inline_asset_content -}}
+       </span>
+       <h3 class="socail-media-handle">TitTok</h3>
+     </a>
+     <a href="{{ section.settings.facebook }}" class="social-acc-link">
+       <span class="svg-wrapper">
+        {{- 'icon-facebook.svg' | inline_asset_content -}}
+       </span>
+       <h3 class="socail-media-handle">Facebook</h3>
+     </a>
+  </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "follow us",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Image"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "description"
+      },
+      {
+        "type": "url",
+        "id":"insta",
+        "label": "Instagram Link"
+      },
+      {
+        "type": "url",
+        "id":"tiktok",
+        "label": "Tiktok Link"
+      },
+      {
+        "type": "url",
+        "id":"facebook",
+        "label": "Facebook Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "follow us"
+      }
+    ]
+  }
+{% endschema %}

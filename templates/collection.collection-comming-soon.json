@@ -1,0 +1,202 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_gEQ8c6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VEfUcX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Shop</strong>",
+            "heading_size": "hxxl"
+          }
+        },
+        "text_CJLfdi": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2>The Pioneer 3 in 1</h2>",
+            "text_style": "body"
+          }
+        },
+        "buttons_iMdRU9": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VEfUcX",
+        "text_CJLfdi",
+        "buttons_iMdRU9"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "custom-css": "cst-shop-section",
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_newsletter_j8kBBB": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "heading_aeGn68": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Are Almost Ready To Launch!",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_tfwVDW": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_46R3yw": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_aeGn68",
+        "paragraph_tfwVDW",
+        "email_form_46R3yw"
+      ],
+      "disabled": true,
+      "name": "Custom Newsletter",
+      "settings": {
+        "custom-css": "collection-coming-soon",
+        "color_scheme": "",
+        "full_width": true,
+        "countdown_date": "2025-12-31 23:59:59",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_Jw9hcU": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_QqQEqE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_7kzT7t": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_Pdtnfr": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_QqQEqE",
+        "paragraph_7kzT7t",
+        "email_form_Pdtnfr"
+      ],
+      "disabled": true,
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "custom-css": "",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1765432526c1c19c16": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_KqU8Bg": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "785881",
+            "text_color": "#3b2f1d",
+            "button_background_color": "#a78262",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_KqU8Bg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner_gEQ8c6",
+    "banner",
+    "product-grid",
+    "custom_newsletter_j8kBBB",
+    "newsletter_Jw9hcU",
+    "1765432526c1c19c16"
+  ]
+}

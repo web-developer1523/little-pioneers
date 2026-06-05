@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ffC7mw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dUiyqp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Mission & values</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_jTkHkF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dUiyqp",
+        "text_jTkHkF"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_kdiKMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pQtzmC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_gLxwgW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At The Little Pioneers, our mission is to empower families by creating innovative, versatile products that enable children to participate in everyday activities with confidence and independence. We are committed to safety and quality, ensuring our designs grow with your child while fostering strong family connections<br/><br/></p>"
+          }
+        },
+        "button_wDEXH4": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Our back story",
+            "button_link": "shopify://pages/our-back-story",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pQtzmC",
+        "text_gLxwgW",
+        "button_wDEXH4"
+      ],
+      "settings": {
+        "custom_class": "cst-mission-values who-are-we-page",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_multicolumn_3piyCk": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_eqAqHm": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>We believe in inspiring confidence in children by enabling them to actively participate in everyday tasks. Our products are designed to foster independence, turning daily moments into opportunities for growth and self-reliance.</p>",
+            "link_label": "Empowerment",
+            "link": ""
+          }
+        },
+        "column_TN4Un8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Your child’s safety is our top priority. We rigorously design and test our products to meet the highest Australian safety standards, ensuring a secure and reliable experience for every family.</p>",
+            "link_label": "safety",
+            "link": ""
+          }
+        },
+        "column_aYxfha": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>We are dedicated to strengthening the bonds within families by creating products that integrate children into daily life. By making it easy and enjoyable for parents and children to share everyday activities, we help nurture lasting, meaningful connections.</p>",
+            "link_label": "Family connection",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eqAqHm",
+        "column_TN4Un8",
+        "column_aYxfha"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "cst-our-mission-col-section",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_tbwdin": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_46UR43": {
+          "type": "heading",
+          "settings": {
+            "heading": "Empowerment",
+            "heading_size": "h2"
+          }
+        },
+        "text_qQU9kb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe in inspiring confidence in children by enabling them to actively participate in everyday tasks. Our products are designed to foster independence, turning daily moments into opportunities for growth and self-reliance</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_46UR43",
+        "text_qQU9kb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0B3A3132_9b156137-465a-45e8-8df2-7aeb8c6d1ea6.jpg",
+        "custom-css": "cst-mission-value-image-with-text",
+        "custom-id": "empowerment",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_WYzDLC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8Xxxbw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Safety",
+            "heading_size": "h2"
+          }
+        },
+        "text_Gk6KmX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your child’s safety is our top priority. We rigorously design and test our products to meet the highest Australian safety standards, ensuring a secure and reliable experience for every family.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Xxxbw",
+        "text_Gk6KmX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0B3A3319.jpg",
+        "custom-css": "cst-mission-value-image-with-text",
+        "custom-id": "safety",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_AJ6Eqi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7dTR4r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Family Connection",
+            "heading_size": "h2"
+          }
+        },
+        "text_g79Rqn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are dedicated to strengthening the bonds within families by creating products that integrate children into daily life. By making it easy and enjoyable for parents and children to share everyday activities, we help nurture lasting, meaningful connections.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_YineLV": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7dTR4r",
+        "text_g79Rqn",
+        "button_YineLV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/0B3A3009.jpg",
+        "custom-css": "cst-mission-value-image-with-text",
+        "custom-id": "family-connection",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ffC7mw",
+    "rich_text_kdiKMD",
+    "custom_multicolumn_3piyCk",
+    "image_with_text_tbwdin",
+    "image_with_text_WYzDLC",
+    "image_with_text_AJ6Eqi"
+  ]
+}

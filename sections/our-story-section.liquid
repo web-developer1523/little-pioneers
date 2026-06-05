@@ -1,0 +1,52 @@
+<div class=" page-width">
+  {% if section.settings.heading %}
+    <h2 class="cst-common-head">{{ section.settings.heading }}</h2>
+  {% endif %}
+  <div class="images">
+    <img src="{{ section.settings.first-image | img_url:'master'}}" alt="image">
+
+    <img src="{{ section.settings.third-image | img_url:'master'}}" alt="image">
+  </div>
+  <div class="story-content page-width">
+    <p>{{ section.settings.content }}</p>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Our Story",
+  "class": "cst-our-story-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom-css",
+      "label": "Custom Css"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your heading here.."
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "first-image",
+      "label": "First Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "third-image",
+      "label": "Third Image"
+    },
+  ],
+  "presets":[
+    {
+      "name": "Our Story"
+    }
+  ]
+}
+{% endschema %}

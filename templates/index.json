@@ -1,0 +1,836 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_zfgwdt": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_tKKGdD": {
+          "type": "slide",
+          "settings": {
+            "image_link": "shopify://products/little-bakers-kit",
+            "image": "shopify://shop_images/ChatGPT_Image_May_30_2026_05_43_49_PM.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_BcVRPE": {
+          "type": "slide",
+          "settings": {
+            "image_link": "shopify://products/toddler-mealtime-bundle-1",
+            "image": "shopify://shop_images/2_c374a06f-c667-4fd9-86d8-b494883e7699.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_MKWKcR": {
+          "type": "slide",
+          "settings": {
+            "image_link": "shopify://collections/shop-all",
+            "image": "shopify://shop_images/Copy_of_Copy_of_website_Banners.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_tqn9JA": {
+          "type": "slide",
+          "settings": {
+            "image_link": "shopify://collections/everyday-eats",
+            "image": "shopify://shop_images/2_70447161-9c8a-43be-85f5-d91cc9d230b4.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6ncwKE": {
+          "type": "slide",
+          "settings": {
+            "image_link": "shopify://collections/shop-all",
+            "image": "shopify://shop_images/1_9b598068-8327-454c-8faf-78e47b1eb574.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_tKKGdD",
+        "slide_BcVRPE",
+        "slide_MKWKcR",
+        "slide_tqn9JA",
+        "slide_6ncwKE"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "custom_class": "cst-home-banner",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hello!",
+            "heading_size": "hxl"
+          }
+        },
+        "text_WMnbkb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Welcome to The Little Pioneers — Where Everyday Moments Spark Lifelong Skills</strong><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore our collection",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_WMnbkb",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "cst-custom-homepage-image-banner",
+        "image": "shopify://shop_images/IMG_8696_e1cd68e7-b754-44c0-ad41-ba3aa786bbfd.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_cHEpqQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zCmRex": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why choose us?",
+            "heading_size": "hxl"
+          }
+        },
+        "text_NqTyVz": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Australia’s FIRST 3 in 1 Convertible Learning Tower, High Chair & Table Combo</p><p> Designed for Aussie families, with Australian safety standards.</p><p>5-Point Safety Harness & Tip-Resistant Design.</p><p>Grows with Your Child – No Need for Multiple Products!</p><p>✅ Easy to clean | ✅ Easy to store | ✅ Built for everyday life</p>",
+            "text_style": "body"
+          }
+        },
+        "button_xTUWU4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zCmRex",
+        "text_NqTyVz",
+        "button_xTUWU4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/not-boring-beige.jpg",
+        "custom-css": "cst-choose-section",
+        "custom-id": "",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_Ub6Ta3": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_image_text_wY7CjK": {
+      "type": "custom-image-text",
+      "disabled": true,
+      "settings": {
+        "custom-css": "cst-image-with-text our-story-section",
+        "image": "shopify://shop_images/tag-_merlyn.godinho-54-1-scaled_1080x_6c9ae3ec-f61a-4853-93f0-f115a2e55d72.webp",
+        "heading": "Our Story",
+        "description": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>",
+        "button-label": "Read More",
+        "button_link": ""
+      }
+    },
+    "our_story_section_7RfAXf": {
+      "type": "our-story-section",
+      "disabled": true,
+      "settings": {
+        "custom-css": "cst-our-story-section home-page",
+        "heading": "Our Story",
+        "content": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+        "first-image": "shopify://shop_images/why-we-love-the-cybex-lemo-high-chair-learning-tower-379960.webp",
+        "third-image": "shopify://shop_images/family-nation-2-in-1-montessori-learning-tower-nat.png"
+      }
+    },
+    "testimonial_4cWWaB": {
+      "type": "testimonial",
+      "blocks": {
+        "video_TegEKK": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_6pYWd6": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_DzcE8M": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_z8BqiV": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b4852b34226c4c70ab0071487e923dc9.mp4"
+          }
+        },
+        "video_khHQCm": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b47e7ced61b140f18b2a9affd695ba10.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "video_TegEKK",
+        "video_6pYWd6",
+        "video_DzcE8M",
+        "video_z8BqiV",
+        "video_khHQCm"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_css": "cst-video-slider",
+        "heading": "Why Choose Us?",
+        "description": "<p>👑 Australia’s FIRST 3 in 1 Convertible Learning Tower, High Chair & Table Combo</p><p>🌏 Designed for Aussie families, with Australian safety standards.</p><p>🛡 5-Point Safety Harness & Tip-Resistant Design.</p><p>🪑 Grows with Your Child – No Need for Multiple Products!</p><p>✅ Easy to clean | ✅ Easy to store | ✅ Built for everyday life</p>"
+      }
+    },
+    "image_with_text_XyP3Yd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JaiDUG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_YNjGDm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Spark – A Love for Food and Family<br/>When my daughter Oaklee began her solids journey at 6 months, her instant love for food reminded me of my own childhood memories of helping my mum cook. Living in a small.....</p>",
+            "text_style": "body"
+          }
+        },
+        "button_GiReCQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read More",
+            "button_link": "shopify://pages/our-back-story",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JaiDUG",
+        "text_YNjGDm",
+        "button_GiReCQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Apr_8_2025_01_39_17_PM.png",
+        "custom-css": "cst-story-sec",
+        "custom-id": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_D4G3py": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "everyday-eats",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1768389917b98d19ab": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_kDdTxh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "product_image",
+            "max_reviews": 20,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": false,
+            "arrows_position": "sides",
+            "max_width": 1600,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "What Our Customers Saying",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_kDdTxh"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_KW9BBf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9TU37p": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission & Values",
+            "heading_size": "hxxl"
+          }
+        },
+        "text_w3ibzr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At The Little Pioneers, our mission is to empower families by creating innovative, versatile products that enable children to participate in everyday activities with confidence and independence. We are committed to safety and quality, <br/>ensuring our designs grow with your child while fostering strong family connections.</p>"
+          }
+        },
+        "button_RXKhJq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://pages/our-mission-and-values",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9TU37p",
+        "text_w3ibzr",
+        "button_RXKhJq"
+      ],
+      "settings": {
+        "custom_class": "cst-our-mission-section home-page",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3ee2b3ac-45e5-43f7-a264-adb894df9008",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_multicolumn_EnWWxJ": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_F4UjaM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>We believe in inspiring confidence in children by enabling them to actively participate in everyday tasks. Our products are designed to foster independence, turning daily moments into opportunities for growth and self-reliance.</p>",
+            "link_label": "Empowerment",
+            "link": "https://little-pioneers.myshopify.com/pages/our-mission-and-values#empowerment"
+          }
+        },
+        "column_mMyi4Q": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Your child’s safety is our top priority. We rigorously design and test our products to meet the highest Australian safety standards, ensuring a secure and reliable experience for every family.</p>",
+            "link_label": "Safety",
+            "link": "https://little-pioneers.myshopify.com/pages/our-mission-and-values#safety"
+          }
+        },
+        "column_HKeEdA": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>We are dedicated to strengthening the bonds within families by creating products that integrate children into daily life. By making it easy and enjoyable for parents and children to share everyday activities, we help nurture lasting, meaningful connections.</p>",
+            "link_label": "Family Connection",
+            "link": "https://little-pioneers.myshopify.com/pages/our-mission-and-values#family-connection"
+          }
+        }
+      },
+      "block_order": [
+        "column_F4UjaM",
+        "column_mMyi4Q",
+        "column_HKeEdA"
+      ],
+      "settings": {
+        "custom_class": "cst-our-mission-col-section",
+        "bg-image1": "shopify://shop_images/0B3A3009.jpg",
+        "bg-image2": "shopify://shop_images/0B3A3319.jpg",
+        "bg-image3": "shopify://shop_images/0B3A3051.jpg",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_d9NFWf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_aV8Brn": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is 'The Pioneer 3 in 1' ?",
+            "sub-heading": "<strong>Product & Safety</strong>",
+            "icon": "question_mark",
+            "row_content": "<p>A 3-in-1 multi-use product that converts from a high chair to a learning tower and table & seat, designed for safety, convenience, and space-saving.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HAgh3V": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Is it safe?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! It meets Australian high chair safety standards (AS 4684—2009) and is stability and weight tested for peace of mind.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VViTtt": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Has the product been tested?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Our design undergoes rigorous SGS quality control testing to ensure compliance with safety standards.<br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m3iQxG": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What are the product dimensions?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>[Insert dimensions]</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_T4tUpG": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What is the weight capacity?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>[Insert weight capacity]</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cpXG6d": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What age is it suitable for?",
+            "sub-heading": "<strong>Age & Use</strong>",
+            "icon": "question_mark",
+            "row_content": "<p>High Chair: From 6+ months (when baby can sit independently).<br/>Learning Tower: From 10+ months (when child can stand).<br/>Table & Seat Mode: For toddlers & preschoolers.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7tcLTk": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How do I switch between modes?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>The design easily converts between high chair, learning tower, and table & seat mode. A step-by-step guide is included.<br/>You can also refer to our <a href=\"/pages/how-it-works\" title=\"How It Works\">'How it Works'</a><strong> </strong>for a video demonstration<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cHtYCP": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How much space does it take up?",
+            "sub-heading": "<strong>Space & Convenience</strong>",
+            "icon": "question_mark",
+            "row_content": "<p>It’s slimline and compact, replacing three bulky products with one. [Insert space-saving measurements]</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Cr3m9n": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Is the tray removable?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! It’s easy to attach, remove, and clean.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nWacXz": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Is it easy to clean?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Yes! Wipe down after meals and playtime—quick and hassle-free.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cnXjXT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my order be shipped?",
+            "sub-heading": "<strong>Ordering & Delivery</strong>",
+            "icon": "question_mark",
+            "row_content": "<p>Orders are dispatched within 1-2 business days. Tracking details will be provided via email<br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7f9fiE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you ship?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Australia-wide. International shipping coming soon!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_txC9ik": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much is shipping?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<ul><li><strong>Standard  Delivery </strong>$15 per purchase</li><li><strong>Free Standard Delivery </strong>for orders over <strong>$95</strong></li><li><strong>Express Delivery </strong>$25 per purchase </li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QyC6fG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p></p><p>We want you to love your purchase 🤍 If something isn’t quite right, please email us at <a><strong>contact@thelittlepioneers.com.au</strong></a> within <strong>30 days of receiving your order</strong>, including your order number and a brief description.</p><p><strong>Change of mind returns</strong> are accepted if items are unused, in original packaging, and in resellable condition. Return shipping is at your cost, and original shipping fees are non-refundable.</p><p>Due to hygiene reasons, we cannot accept returns on items that have been used for meals.</p><p><strong>Please note:</strong></p><ul><li>Only unused items from bundles can be refunded</li><li>Free gifts must be returned or their value will be deducted</li><li>Seconds stock and used feeding items are not eligible for return<br/></li></ul><p>If your item is <strong>faulty, damaged, or incorrect</strong>, please contact us with photos and we’ll organise a replacement or refund.</p><p>For full details, please refer to our <a href=\"/pages/shipping-returns\" target=\"_blank\" title=\"Shipping & Returns\"><strong>Shipping & Returns Policy</strong></a>.</p><p>📩 Need help? Contact us anytime at <a><strong>contact@thelittlepioneers.com.au</strong></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ec4Yyc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I contact support?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>Reach us via email contact@thelittlepioneers.com.au or our <a href=\"/pages/contact\" title=\"Contact\">Contact us page.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TQBaD6": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What’s your warranty policy?",
+            "sub-heading": "",
+            "icon": "question_mark",
+            "row_content": "<p>We offer a <strong>2-year manufacturing warranty </strong>on all Little Pioneers products. This covers any manufacturing defects in materials or workmanship.Please note, the warranty does not cover:</p><ul><li>Normal wear and tear</li><li>Damage caused by misuse or incorrect assembly</li><li>Modifications or use not intended by the instructions</li><li>Improper cleaning or storage</li></ul><p>If you experience a problem, just get in touch with us — we’ll make it right wherever we can!<br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_aV8Brn",
+        "collapsible_row_HAgh3V",
+        "collapsible_row_VViTtt",
+        "collapsible_row_m3iQxG",
+        "collapsible_row_T4tUpG",
+        "collapsible_row_cpXG6d",
+        "collapsible_row_7tcLTk",
+        "collapsible_row_cHtYCP",
+        "collapsible_row_Cr3m9n",
+        "collapsible_row_nWacXz",
+        "collapsible_row_cnXjXT",
+        "collapsible_row_7f9fiE",
+        "collapsible_row_txC9ik",
+        "collapsible_row_QyC6fG",
+        "collapsible_row_Ec4Yyc",
+        "collapsible_row_TQBaD6"
+      ],
+      "settings": {
+        "custom-css": "cst-faq-section home-page",
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "page_kjBfCk": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": "insta-feed",
+        "heading_size": "hxl",
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17428017625f7f8520": {
+      "type": "apps",
+      "blocks": {
+        "add_instagram_feed_tagembed_app_block_cErfB4": {
+          "type": "shopify://apps/add-instagram-feed-tagembed/blocks/app-block/087f3315-479f-4a46-9a8d-6edf602a4af7",
+          "settings": {
+            "tagembed_feed_website_id": "",
+            "tagembed_feed": "2159856",
+            "tagembed_feed_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "add_instagram_feed_tagembed_app_block_cErfB4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1768301973fe4107fc": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_h9niex": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [
+              "three-section-suction-plate"
+            ],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 20,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Customers are saying",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_h9niex"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_zfgwdt",
+    "image_banner",
+    "image_with_text_cHEpqQ",
+    "custom_liquid_Ub6Ta3",
+    "custom_image_text_wY7CjK",
+    "our_story_section_7RfAXf",
+    "testimonial_4cWWaB",
+    "image_with_text_XyP3Yd",
+    "featured_collection_D4G3py",
+    "1768389917b98d19ab",
+    "rich_text_KW9BBf",
+    "custom_multicolumn_EnWWxJ",
+    "collapsible_content_d9NFWf",
+    "page_kjBfCk",
+    "17428017625f7f8520",
+    "1768301973fe4107fc"
+  ]
+}

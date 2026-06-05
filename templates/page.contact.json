@@ -1,0 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_Ui6GUN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kdcE8X": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Contact Us</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_gEVDUL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_Ya6eTC": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kdcE8X",
+        "text_gEVDUL",
+        "buttons_Ya6eTC"
+      ],
+      "settings": {
+        "custom_class": "cst-inner-banner",
+        "image": "shopify://shop_images/light-brown-color-solid-background-1920x1080.png",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "custom-css": "cst-contact-us-section contact-page",
+        "heading": "<h2><strong>📩 We'd love to hear from you</strong></h2>",
+        "heading_size": "h1",
+        "email": "contact@thelittlepioneers.com.au",
+        "location": "Australia",
+        "follow": "<a href=\"https://www.instagram.com/thelittlepioneers/\" title=\"https://www.instagram.com/thelittlepioneers/\">@thelittlepioneers</a>",
+        "color_scheme": "scheme-116927c6-7dde-4dce-b3cf-91e0ab773545",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_Ui6GUN",
+    "form"
+  ]
+}
