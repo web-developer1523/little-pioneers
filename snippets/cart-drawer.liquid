@@ -506,29 +506,22 @@
           <p id="discount_error" class="cart-discount-error" hidden>Invalid or expired discount code</p>
         </div>
         {%- if settings.show_cart_note -%}
-          <details id="Details-CartDrawer">
-            <summary>
-              <span class="summary__title">
-                {{ 'sections.cart.note' | t }}
-                {{- 'icon-caret.svg' | inline_asset_content -}}
-              </span>
-            </summary>
-            <cart-note class="cart__note field">
-              <label class="visually-hidden" for="CartDrawer-Note">{{ 'sections.cart.note' | t }}</label>
-              <textarea
-                id="CartDrawer-Note"
-                class="text-area text-area--resize-vertical field__input"
-                name="note"
-                placeholder="{{ 'sections.cart.note' | t }}"
-              >{{ cart.note }}</textarea>
-            </cart-note>
-          </details>
+          <cart-note class="cart__note field" style="margin:10px 0px;">
+            <label for="CartDrawer-Note">{{ 'sections.cart.note' | t }}</label>
+            <textarea
+              id="CartDrawer-Note"
+              class="text-area text-area--resize-vertical field__input"
+              name="note"
+              placeholder="{{ 'sections.cart.note_placeholder' | t }}"
+              rows="3"
+            >{{ cart.note }}</textarea>
+          </cart-note>
         {%- endif -%}
 
         <!-- Start blocks -->
         <!-- Subtotals -->
 
-        <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
+        <div class="cart-drawer__footer" {{ block.shopify_attributes }} style="margin-top:40px;">
           <div>
             {%- if cart.cart_level_discount_applications.size > 0 -%}
               <ul class="discounts list-unstyled" role="list" aria-label="{{ 'customer.order.discount' | t }}">
